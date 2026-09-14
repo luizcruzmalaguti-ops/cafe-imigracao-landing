@@ -1,3 +1,8 @@
+import { defineConfig } from 'vite'
+
+export default defineConfig({
+  // suas configurações atuais continuam aqui sem alterações
+})
 // @lovable.dev/vite-tanstack-config already includes the following — do NOT add them manually
 // or the app will break with duplicate plugins:
 //   - TanStack devtools (dev-only, first), tanstackStart, viteReact, tailwindcss, tsConfigPaths,
